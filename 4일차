@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .hello {
+        width: 500px;
+        height: 300px;
+        border: 1px solid black;
+        /* margin-bottom: 100px; */
+        padding: 10%;
+      }
+      .bye {
+        margin-top: 100px;
+        width: 500px;
+        height: 300px;
+        border: 1px solid black;
+      }
+      .a {
+        margin-top: 100px;
+        border: 1px solid black;
+      }
+      .hello-child {
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- margin & padding 복습 -->
+    <div class="hello">
+      <!-- hello 요소에 자식태그 -->
+      <div class="hello-child">나는 자식이야 응애~</div>
+    </div>
+    <!-- h2는 기본적으로 마진값을 가지고 있다.
+        div로 우선 변경하고 다시 진행
+    -->
+    <div class="bye"></div>
+    <p class="a">안녕하세요</p>
+    <!-- 
+        **암기
+        border와 border 간격은 margin
+        border와 contents 간격은 padding
+     -->
+  </body>
+</html>
