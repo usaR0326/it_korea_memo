@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      h4{
+        margin-top: 20px;
+        margin-bottom: 10px;
+      }
+      .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+      .item{
+        background-color: gray;
+        border: 1px solid black;
+        flex: 25%;
+        padding: 20px;
+      }
+      .item h3{
+        font-size: 20px;
+      }
+      .item p{
+        font-size: 1rem;
+        color: white;
+        margin-top: 20px;
+      }
+      @media (max-width: 600px){
+        .container{
+            flex-direction: column;
+        }
+
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Responsive four Column Layout with Flex</h2>
+    <h4>ooauiwhsnfeicushjopfgihea0pighvoipdhpoaij</h4>
+    <div class="container">
+        <div class="item">
+            <h3>column 1</h3>
+            <p>some text..</p>
+        </div>
+        <div class="item">
+            <h3>column 2</h3>
+            <p>some text..</p>
+        </div>
+        <div class="item">
+            <h3>column 3</h3>
+            <p>some text..</p>
+        </div>
+        <div class="item">
+            <h3>column 4</h3>
+            <p>some text..</p>
+    </div>
+  </body>
+</html>
